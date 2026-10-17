@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Meu Canal / Podcast Diário</title>
-    <link>https://github.com/seu-usuario/seu-repositorio</link>
-    <description>Feed de automação diária para o YouTube</description>
-    <language>pt-br</language>
-
-    <!-- ITEM ATUAL DO VÍDEO (Atualize estes dados todos os dias) -->
-    <item>
-      <title>The Fauci Diary is Even Worse Than You Think, LIVE Coverage | Triggered Ep.362</title>
-      <link>https://seu-site.com/video-atual</link>
-      <description><![CDATA[ Descrição completa do vídeo de hoje vai aqui. ]]></description>
-      
-      <!-- Link direto para o arquivo MP4 -->
-      <enclosure url="https://hugh.cdn.rumble.cloud/video/fww1/74/s8/2/c/n/h/K/cnhKA.Eaa.rec.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=3042824192-3042865299" length="52428800" type="video/mp4" />
-      
-      <!-- Imagem de capa específica deste episódio (URL direta para a imagem .jpg ou .png) -->
-      <itunes:image href="https://hugh.cdn.rumble.cloud/video/fww1/74/s8/1/c/n/h/K/cnhKA.OvCc-small-The-Fauci-Diary-is-Even-Wor..jpg" />
-      
-      <!-- GUID ÚNICO: MUDE ISSO TODO DIA (ex: altere a data ou coloque um número/hash novo) -->
-      <guid isPermaLink="false">video-id-17-10-2026</guid>
-      
-      <!-- Data e hora atualizada do post -->
-      <pubDate>Sat, 17 Oct 2026 10:00:00 GMT</pubDate>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+    <title>Die Anstalt (VIDEO)</title>
+    <link>https://www.zdf.de/rss/podcast/video/zdf/comedy/die-anstalt</link>
+	<language>de-de</language>
+	<copyright>Copyright Zweites Deutsches Fernsehen, ZDF</copyright>
+	<itunes:subtitle></itunes:subtitle>
+	<itunes:author>ZDFde</itunes:author>
+	<itunes:summary>Claus von Wagner und Max Uthoff nehmen gesellschaftliche und politische Missst&#228;nde satirisch aufs Korn. In immer neuen Spielarten und Rollen pr&#228;sentieren sie mit ihren G&#228;sten aktuelles Kabarett.</itunes:summary>
+	<itunes:owner>
+		<itunes:name>ZDF</itunes:name>
+		<itunes:email>webmaster@zdf.de</itunes:email>
+    </itunes:owner>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://module.zdf.de/podcasts/anstalt_1400x1400.jpg" />
+	<itunes:category text="TV &amp; Film"/>
+		<item>
+        <title>The Fauci Diary is Even Worse Than You Think, LIVE Coverage | Triggered Ep.362</title>
+		<itunes:author>ZDFde</itunes:author>
+		<itunes:subtitle></itunes:subtitle>
+		<itunes:summary>The Fauci Diary is Even Worse Than You Think, LIVE Coverage | Triggered Ep.362</itunes:summary>
+		<link>https://www.zdf.de/</link>
+		<enclosure url="https://hugh.cdn.rumble.cloud/video/fww1/74/s8/2/c/n/h/K/cnhKA.Eaa.rec.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=3042824192-3042865299" length="403349350" type="video/mp4"/>
+		<guid>https://www.zdf.de/</guid>
+		<pubDate>Tue, 6 Oct 2026 22:15:00 +0200</pubDate>
+		<itunes:duration>2576</itunes:duration>
     </item>
-
-  </channel>
+		
+	</channel>
 </rss>
+
+
