@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Meu Canal / Podcast Diário</title>
+    <link>https://github.com/seu-usuario/seu-repositorio</link>
+    <description>Feed de automação diária para o YouTube</description>
+    <language>pt-br</language>
+
+    <!-- ITEM ATUAL DO VÍDEO (Atualize estes dados todos os dias) -->
+    <item>
+      <title>Título do Vídeo de Hoje</title>
+      <link>https://seu-site.com/video-atual</link>
+      <description><![CDATA[ Descrição completa do vídeo de hoje vai aqui. ]]></description>
+      
+      <!-- Link direto para o arquivo MP4 -->
+      <enclosure url="https://seu-servidor.com/caminho/para/o-video-de-hoje.mp4" length="52428800" type="video/mp4" />
+      
+      <!-- Imagem de capa específica deste episódio (URL direta para a imagem .jpg ou .png) -->
+      <itunes:image href="https://seu-servidor.com/caminho/para/a-capa-de-hoje.jpg" />
+      
+      <!-- GUID ÚNICO: MUDE ISSO TODO DIA (ex: altere a data ou coloque um número/hash novo) -->
+      <guid isPermaLink="false">video-id-17-10-2026</guid>
+      
+      <!-- Data e hora atualizada do post -->
+      <pubDate>Sat, 17 Oct 2026 10:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
